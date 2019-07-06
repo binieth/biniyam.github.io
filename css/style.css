@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 8px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.profile-img {
+    width: 170px;
+    height: 170px;
+}
+
+.about {
+    text-align: left;
+    width: 50%;
+    margin: 5px auto 20px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+h1 {
+
+    font-family: 'Allura', cursive;
+    margin-top: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h3 {
+    color: #66BFBF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top-container {
+    background-color: #d3f6f3;
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* .pro {
+    text-decoration: underline;
+} */
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    height: 100px;
+    width: 220px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    height: 100px;
+    width: 220px;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.coding-monitor {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.fun-skill {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-description {
+    padding: 0;
+    text-align: left;
+}
+.tech-stack {
+    text-align: left;
+}
+
+.tech-stack:hover{
+    color: #66BFBF;
+    
+}
+.tech-stack{
+    
+    text-align: left;
+    font-size: 1.1rem;
+}
+.contact-me{
+    line-height: 2;
+}
+.business{
+    margin-bottom: 3rem;
+}
+
+button {
+    background-color: #d3f6f3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 4rem;
+    width: 240px;
+    margin: 5rem auto;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#contact-btn {
+    text-decoration: none;
+    color: #66BFBF;
+    font: bold;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.bottom-container {
+    background-color: #d3f6f3;
+    height: 100px;
+    padding: 3rem 0;
+}
+
+.footer-link {
+    color: #66BFBF;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.copy-right {
+    padding: 2rem 0;
+    text-align: center;
+    color: #66BFBF;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+a:hover {
+    color: black;
+}
+
+a#contact-btn:hover {
+    color: #1b7f69;
+}
+
+.footer-name {
+    text-decoration: none;
+    color: #66BFBF;
+}
